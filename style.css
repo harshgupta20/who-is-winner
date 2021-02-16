@@ -1,0 +1,64 @@
+body{
+	text-align: center;
+	font-family: 'Lemonada', cursive;
+}
+
+body{
+	background-color: #ff914d;
+}
+
+.heading{
+	font-weight: bold;
+	margin-top: -40px;
+	font-size: 100px;
+	color: green;
+}
+
+
+/* Player section*/
+
+
+.players{
+	width: 600px;
+	background-color: red;
+	margin: -100px auto 0 auto;
+}
+.player1{
+	float: left;
+	color: white;
+	font-size: 20px;
+	width: 300px;
+}
+.player2{
+	float: right;
+	color: white;
+	font-size: 20px;
+	width: 300px;
+}
+img{
+	width: 150px;
+	border-radius: 10px;
+}
+
+
+
+/* button section*/
+
+button{
+	width: 250px;
+	height: 100px;
+	border-radius: 100px;
+	border: solid 1px;
+	border-color: #ff914d;
+	margin-top: 100px;
+	font-size: 30px;
+	font-weight: 900;
+	background-color: green;
+	color: white;
+}
+
+button:hover{
+	transition-property: background-color;
+	background-color: blue;
+	transition-duration: 1s;
+}
